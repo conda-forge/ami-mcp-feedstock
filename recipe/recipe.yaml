@@ -28,7 +28,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - pyami-atlas
-    - mcp >=2.0.0,<3.
+    - mcp >=2.0.0,<3
     - ca-policy-lcg  # for cert
     - af-credentials >=0.1.0
 
