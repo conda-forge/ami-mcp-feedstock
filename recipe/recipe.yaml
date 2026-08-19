@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.2.2"
+  version: "0.2.3"
 
 package:
   name: ami-mcp
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/ami_mcp/ami_mcp-${{ version }}.tar.gz
-  sha256: 8de10c563cfcbe8505631ba5812bda97d0ac82f9739b4ff71aa6cddda40716d2
+  sha256: 3fd31026ebddbeca743f93f2ac044d9b4ccab3e4ab01df09c8ac7943e5eadb1c
 
 build:
   number: 0
@@ -30,7 +30,7 @@ requirements:
     - pyami-atlas
     - mcp >=2.0.0,<3
     - ca-policy-lcg  # for cert
-    - af-credentials >=0.1.0
+    - af-credentials >=0.1.1
 
 tests:
   - python:
