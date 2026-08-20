@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.2.3"
+  version: "0.2.4"
 
 package:
   name: ami-mcp
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/ami_mcp/ami_mcp-${{ version }}.tar.gz
-  sha256: 3fd31026ebddbeca743f93f2ac044d9b4ccab3e4ab01df09c8ac7943e5eadb1c
+  sha256: c032010b883b246f22f4584349a9d90ef5ed331a997fef5e3dc9085a6752bce7
 
 build:
   number: 1
