@@ -12,7 +12,7 @@ source:
   sha256: 3fd31026ebddbeca743f93f2ac044d9b4ccab3e4ab01df09c8ac7943e5eadb1c
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
   python:
@@ -30,7 +30,7 @@ requirements:
     - pyami-atlas
     - mcp >=2.0.0,<3
     - ca-policy-lcg  # for cert
-    - af-credentials >=0.1.1
+    - af-credentials >=0.2.0
 
 tests:
   - python:
