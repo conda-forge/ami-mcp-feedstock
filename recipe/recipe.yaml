@@ -1,15 +1,15 @@
 schema_version: 1
 
 context:
-  version: "0.3.0"
+  version: "0.3.1"
 
 package:
   name: ami-mcp
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/03/2e/f61e2a3d72b9726dcedc3af1c0c6c6e46d155bb0b1812dbf81336021c7e4/ami_mcp-${{ version }}.tar.gz
-  sha256: 006f7f210bee5f1ebd8b44e25b212475352ba4705355f5afe01ef56cbfbafece
+  url: https://files.pythonhosted.org/packages/d8/d6/2f48d9fa33d4d8e802a7b90d210b1aa620f1c418ba5318ad29d17e927c7c/ami_mcp-${{ version }}.tar.gz
+  sha256: dcc4df57903b7b7e3e1600a3a51a40cf277502a4cfb90bde5f800f645421fd21
 
 build:
   number: 0
